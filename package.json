@@ -1,0 +1,15 @@
+{
+  "name": "meandros",
+  "version": "1.0.0",
+  "description": "Meandros fechados contados por varredura completa dos sistemas de arcos, em Node puro, sem dependencia nenhuma.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test testes/*.test.js",
+    "medir": "node ferramentas/medidor.js"
+  },
+  "license": "MIT",
+  "private": false
+}
